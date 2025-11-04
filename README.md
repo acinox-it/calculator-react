@@ -66,7 +66,7 @@ npm run dev
 
 ---
 
-📄 Licence
+## 📄 Licence
 
 Ce projet est open-source sous licence MIT.
 Voir le fichier [LICENSE](./LICENSE) pour plus d’informations.
