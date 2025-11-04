@@ -5,7 +5,7 @@ import CalculatorPage from './pages/CalculatorPage';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-600 text-white">
+    <div className="w-full h-screen bg-gray-600 text-white flex justify-center">
       <Routes>
         <Route path="/" element={<CalculatorPage />} />
       </Routes>
