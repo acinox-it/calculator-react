@@ -1,15 +1,17 @@
 import { Routes, Route } from 'react-router-dom';
-//import Navbar from './layout/Navbar';
-//import Home from './pages/Home';
-import CalculatorPage from './pages/CalculatorPage';
+import Calculator from './components/Calculator';
+import ScientificCalculator from './components/ScientificCalculator';
+import Navbar from './layout/Navbar'
 
 function App() {
   return (
-    <div className="w-full h-screen bg-gray-600 text-white flex justify-center">
+    <main>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<CalculatorPage />} />
+        <Route path="/" element={<Calculator />} />,
+        <Route path="/scientific" element= {<ScientificCalculator />} />
       </Routes>
-    </div>
+    </main>
   );
 }
 
