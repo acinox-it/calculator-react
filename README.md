@@ -40,7 +40,7 @@ CALCULATOR-REACT/
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/ton-utilisateur/CALCULATOR-REACT.git
+git clone https://github.com/acinox-it/CALCULATOR-REACT.git
 cd CALCULATOR-REACT
 npm install
 npm run dev
